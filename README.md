@@ -47,8 +47,9 @@ A burst operation is defined as one or more data transactions, initiated by a bu
 
 # AMBA Signals
 # AMBA AHB & APB Signals
-<img width="369" alt="image" src="https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/18d2b4c2-d9a3-43f4-abe3-9968bc720a39">
+<img width="374" alt="Screenshot 2023-07-07 115251" src="https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/630b2981-741c-4c17-a51b-fd9afdcfb381">
 
+<img width="369" alt="Screenshot 2023-07-07 115043" src="https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/d333cace-2873-4dfa-ba72-c600997dd118">
 
 # Implementation
 # Objective
@@ -67,8 +68,7 @@ To design and simulate a synthesizable AHB to APB bridge interface using Verilog
 • Can implement single read and write operations successfully.
 
 # The diagram below shows the interface:
-<img width="374" alt="Screenshot 2023-07-07 115251" src="https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/630b2981-741c-4c17-a51b-fd9afdcfb381">
-<img width="369" alt="Screenshot 2023-07-07 115043" src="https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/d333cace-2873-4dfa-ba72-c600997dd118">
+![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/98fa670a-b011-480f-9caa-a12611889351)
 
 
 # Basic Implementation Tools
