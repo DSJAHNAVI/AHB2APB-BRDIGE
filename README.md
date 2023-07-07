@@ -27,7 +27,8 @@ The AMBA ASB is for high-performance system modules. AMBA ASB is an alternative 
 # Advanced Peripheral Bus (APB)
 The AMBA APB is for low-power peripherals. AMBA APB is optimized for minimal power consumption and reduced interface complexity to support peripheral functions. APB can be used in conjunction with either version of the system bus.
 
-The overall architecture looks like the following: image
+The overall architecture looks like the following: 
+
 ![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/f20b754b-42eb-449d-b886-a9fe1e2dabc8)
 
 
@@ -45,11 +46,9 @@ An AMBA ASB or AHB bus transfer is a read or write operation of a data object, w
 A burst operation is defined as one or more data transactions, initiated by a bus master, which have a consistent width of transaction to an incremental region of address space. The increment step per transaction is determined by the width of transfer (byte, halfword, word). No burst operation is supported on the APB.
 
 # AMBA Signals
-# AMBA AHB Signals
-![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/baad203b-c9af-4d74-ae63-a6c8cc5e7618)
+# AMBA AHB & APB Signals
+<img width="369" alt="image" src="https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/18d2b4c2-d9a3-43f4-abe3-9968bc720a39">
 
-# AMBA APB Signals
-![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/99224b2e-c615-4f14-84f3-f57c4695a1d0)
 
 # Implementation
 # Objective
@@ -68,8 +67,8 @@ To design and simulate a synthesizable AHB to APB bridge interface using Verilog
 • Can implement single read and write operations successfully.
 
 # The diagram below shows the interface:
-
-![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/04a2c304-ae3c-491d-99e0-dd4377177a15)
+<img width="374" alt="Screenshot 2023-07-07 115251" src="https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/630b2981-741c-4c17-a51b-fd9afdcfb381">
+<img width="369" alt="Screenshot 2023-07-07 115043" src="https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/d333cace-2873-4dfa-ba72-c600997dd118">
 
 
 # Basic Implementation Tools
@@ -129,11 +128,12 @@ The design files are attached in the repository along with the AHB Master and AP
 
 # Documentation
 
-• AMBA 
+• AMBA   
 [Uploading PROJECT FILE.pdf…]()
 
 • AMBA Modules | Chapter 4 | 
 [AMBA.Modules.pdf](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/files/11975170/AMBA.Modules.pdf)
 
-• AMBA Specifications | Chapter 1,2,3 and 5 | [AMBA.Specifications.pdf](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/files/11975171/AMBA.Specifications.pdf)
+• AMBA Specifications | Chapter 1,2,3 and 5 | 
+[AMBA.Specifications.pdf](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/files/11975171/AMBA.Specifications.pdf)
 
