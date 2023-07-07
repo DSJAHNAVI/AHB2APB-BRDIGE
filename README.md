@@ -106,7 +106,7 @@ The design files are attached in the repository along with the AHB Master and AP
 ![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/b95cb807-698f-4fe0-9ade-38597ba1ae4a)
 
 # Synthesis Results
-RTL SCHEMATIC of BRIDGE:
+# RTL SCHEMATIC of BRIDGE:
 ![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/aa113b06-69db-4f07-92b5-b84294756e96)
 
 # RTL SCHEMATIC of AHB Slave:
@@ -128,6 +128,9 @@ RTL SCHEMATIC of BRIDGE:
 • Include an arbitration mechanism and arbitration signals to generalise the testbench
 
 # Documentation
-• AMBA Modules | Chapter 4 | AMBA.Modules.pdf
 
-• AMBA Specifications | Chapter 1,2,3 and 5 | AMBA.Specifications.pdf
+• AMBA Modules | Chapter 4 | 
+[AMBA.Modules.pdf](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/files/11975170/AMBA.Modules.pdf)
+
+• AMBA Specifications | Chapter 1,2,3 and 5 | [AMBA.Specifications.pdf](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/files/11975171/AMBA.Specifications.pdf)
+
