@@ -32,6 +32,7 @@ The overall architecture looks like the following:
 ![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/f20b754b-42eb-449d-b886-a9fe1e2dabc8)
 
 
+
 # Basic Terminology
 # Bus cycle
 
@@ -47,9 +48,13 @@ A burst operation is defined as one or more data transactions, initiated by a bu
 
 # AMBA Signals
 # AMBA AHB & APB Signals
+
 <img width="374" alt="Screenshot 2023-07-07 115251" src="https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/630b2981-741c-4c17-a51b-fd9afdcfb381">
 
+
 <img width="369" alt="Screenshot 2023-07-07 115043" src="https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/d333cace-2873-4dfa-ba72-c600997dd118">
+
+
 
 # Implementation
 # Objective
@@ -67,8 +72,10 @@ To design and simulate a synthesizable AHB to APB bridge interface using Verilog
 
 • Can implement single read and write operations successfully.
 
+
 # The diagram below shows the interface:
 ![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/98fa670a-b011-480f-9caa-a12611889351)
+
 
 
 # Basic Implementation Tools
@@ -100,7 +107,6 @@ The design files are attached in the repository along with the AHB Master and AP
 # BURST WRITE with Increment 4 Burst:
 ![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/8108b8d6-f3b9-4fa3-aa17-1d5fa806a393)
 
-
 # BURST READ with Increment 4 Burst:
 ![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/b95cb807-698f-4fe0-9ade-38597ba1ae4a)
 
@@ -127,9 +133,7 @@ The design files are attached in the repository along with the AHB Master and AP
 • Include an arbitration mechanism and arbitration signals to generalise the testbench
 
 # Documentation
-
-• AMBA   
-[Uploading PROJECT FILE.pdf…]()
+•  AMBA REFERENCE [PROJECT FILE.pdf](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/files/11975353/PROJECT.FILE.pdf)
 
 • AMBA Modules | Chapter 4 | 
 [AMBA.Modules.pdf](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/files/11975170/AMBA.Modules.pdf)
