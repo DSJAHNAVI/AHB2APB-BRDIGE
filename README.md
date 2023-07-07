@@ -7,7 +7,7 @@ I am DS Jahnavi, and within this repository, you will find a collection of veril
 AHB2APB-Bridge
 The AHB to APB bridge is an AHB slave and the only APB master which provides an interface between the highspeed AHB and the low-power APB. Read and write transfers on the AHB are converted into equivalent transfers on the APB.
 
-About the AMBA Buses
+About the AMBA Buses:
 The Advanced Microcontroller Bus Architecture (AMBA) specification defines an on-chip communications standard for designing high-performance embedded microcontrollers. Three distinct buses are defined within the AMBA specification:
 
 • Advanced High-performance Bus (AHB)
