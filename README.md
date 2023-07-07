@@ -1,6 +1,10 @@
+Welcome, VLSI enthusiasts, to my AHB2APB BRDIGE repository!
+
+I am DS Jahnavi, and within this repository, you will find a collection of verilog codes required to do AHB2APB Bridge.
+
 # AHB2APB-BRDIGE
 
-AHB-to-APB-Bridge
+AHB2APB-Bridge
 The AHB to APB bridge is an AHB slave and the only APB master which provides an interface between the highspeed AHB and the low-power APB. Read and write transfers on the AHB are converted into equivalent transfers on the APB.
 
 About the AMBA Buses
@@ -40,10 +44,10 @@ A burst operation is defined as one or more data transactions, initiated by a bu
 
 AMBA Signals
 AMBA AHB Signals
-image
+![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/baad203b-c9af-4d74-ae63-a6c8cc5e7618)
 
 AMBA APB Signals
-image
+![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/99224b2e-c615-4f14-84f3-f57c4695a1d0)
 
 Implementation
 Objective
@@ -63,7 +67,8 @@ To design and simulate a synthesizable AHB to APB bridge interface using Verilog
 
 The diagram below shows the interface:
 
-image
+![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/04a2c304-ae3c-491d-99e0-dd4377177a15)
+
 
 Basic Implementation Tools
 • HDL Used : Verilog
@@ -73,8 +78,6 @@ Basic Implementation Tools
 • Synthesis Tool Used: Quartus Prime
 
 • Family: Cyclone V
-
-• Device: 5CSXFC6D6F31I7ES
 
 Design Modules
 AHB Slave Interface
@@ -88,41 +91,38 @@ The design files are attached in the repository along with the AHB Master and AP
 
 Simulation Results
 SINGLE WRITE Operation:
-
-image
+![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/70dcca06-1d59-4265-a8e0-5f84bcbf8b89)
 
 SINGLE READ Operation:
+![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/f56f435d-2192-43dc-a1d3-66fc4d5a4953)
 
-image
 
 BURST WRITE with Increment 4 Burst:
+![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/8108b8d6-f3b9-4fa3-aa17-1d5fa806a393)
 
-image
 
 BURST READ with Increment 4 Burst:
+![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/b95cb807-698f-4fe0-9ade-38597ba1ae4a)
 
-image
 
 Synthesis Results
 RTL SCHEMATIC of BRIDGE:
-
-image
+![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/aa113b06-69db-4f07-92b5-b84294756e96)
 
 RTL SCHEMATIC of AHB Slave:
-
-AHB Slave
+![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/2622b7a0-033e-4917-b6fe-a0b39d2ccf2e)
 
 RTL SCHEMTIC OF APB Controller:
+![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/6caa32ce-f197-4c23-8dbd-6b2e01da921b)
 
-APB Controller
 
 STATE DIAGRAM of APB Controller:
+![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/fdbfa7f4-8316-4318-8072-ff751c9f84c9)
 
-image
 
 STATE TABLE for APB Controller:
+![image](https://github.com/DSJAHNAVI/AHB2APB-BRDIGE/assets/132932086/4c7ea1de-4bbf-40d4-955a-e0c9845336c0)
 
-State Table
 
 Further Work
 • Include functionality for burst read and burst write operations in AHB Master
